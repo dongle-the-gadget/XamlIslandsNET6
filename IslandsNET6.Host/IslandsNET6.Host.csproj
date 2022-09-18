@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<CsWinRTFilters>
+			-exclude Windows
+			-include IslandsNET6
+		</CsWinRTFilters>
+		<Platforms>x64</Platforms>
+		<StartupObject>IslandsNET6.Host.Program</StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.7" />
+	  <PackageReference Include="Microsoft.Windows.CsWinRT" Version="2.2.0-private.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\IslandsNET6.Components\IslandsNET6.Components.vcxproj" />
+		<ProjectReference Include="..\Toolkit\Microsoft.Toolkit.Wpf.UI.XamlHost\Microsoft.Toolkit.Wpf.UI.XamlHost.csproj" />
+	</ItemGroup>
+
+</Project>

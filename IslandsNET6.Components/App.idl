@@ -1,0 +1,8 @@
+namespace IslandsNET6.Components
+{
+    [default_interface]
+    runtimeclass App : Windows.UI.Xaml.Application
+    {
+        App();
+    }
+}
