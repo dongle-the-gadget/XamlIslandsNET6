@@ -10,7 +10,7 @@
 		<PackageTags>XAML Islands Win32 WPF XAMLHost</PackageTags>
 		<PackageId>Microsoft.Toolkit.Wpf.UI.XamlHost</PackageId>
 		<UseWPF>true</UseWPF>
-		<Platforms>x64</Platforms>
+		<Platforms>x64;x86;arm64</Platforms>
 		<RepositoryUrl>https://github.com/nesherhh/XamlIslandsNET5</RepositoryUrl>
 	</PropertyGroup>
 
