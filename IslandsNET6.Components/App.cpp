@@ -9,4 +9,6 @@ using namespace Windows::UI::Xaml;
 
 namespace winrt::IslandsNET6::Components::implementation
 {
+	App::App()
+	{ }
 }

@@ -7,11 +7,7 @@ namespace winrt::IslandsNET6::Components::implementation
 {
     struct App : AppT2<App>
     {
-        App() 
-        {
-            // Xaml objects should not call InitializeComponent during construction.
-            // See https://github.com/microsoft/cppwinrt/tree/master/nuget#initializecomponent
-        }
+        App();
     };
 }
 
